@@ -1,0 +1,170 @@
+body {
+	background: #4c268f;
+	color: #99eeb4;
+	user-select: none;
+}
+
+.zone1 {
+	width:1300px; /*d�finit la largeur du div � 800 pixels*/
+	height:95px; /*d�finit la hauteur du div � 120 pixels*/
+	background-color:#3FC699; /*couleur de fond Gris foncé*/
+	margin: auto;
+	text-align: center;
+
+}
+
+.zone2 {
+	padding-top: 75px;
+	font-family: "Avenir Next", sans-serif;
+	font-style: italic;
+	letter-spacing: 0.05em;
+	text-align: center;
+}
+
+.zone3 {
+	width:1350px; /*d�finit la largeur du div � 800 pixels*/
+	height:5px; /*d�finit la hauteur du div � 120 pixels*/
+	margin: auto;
+	background-color: white;
+
+}
+
+.zone4 {
+	width:1350px; /*d�finit la largeur du div � 800 pixels*/
+	height:px; /*d�finit la hauteur du div � 120 pixels*/
+	margin: auto;
+
+}
+
+.zone5 {
+	padding-left: 300px;
+	width:1350px; /*d�finit la largeur du div � 800 pixels*/
+	height:300px; /*d�finit la hauteur du div � 120 pixels*/
+}
+
+.zone6 {
+	width: 250px;
+	height: 400px;
+	background-color: white;
+	font-family: "Avenir Next", sans-serif;
+	text-align: center;
+	padding-top: 20px;
+	border: 5px solid;
+	border-color: #3FC699 #3FC699 #3FC699 #3FC699;
+	color: black;
+	float: left;
+	border-radius: 15px 15px;
+
+}
+
+.zone7 {
+	width: 50px;
+	height: 400px;
+	float: left;
+}
+
+.zone8 {
+	text-align: center;
+}
+
+.red_text{
+	color: red;
+}
+
+/*Formulaire*/
+
+form.register {
+	font-family: "Avenir Next", sans-serif;
+	background: #471D83;
+	width: 30%;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+	margin: auto;
+	border-radius: 15px 15px;
+
+}
+
+.zone8 input {
+	font-family: "Avenir Next", sans-serif;
+	outline: 0;
+	background: #471D83;
+	width: 30%;
+	border: 3px solid;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+	text-align: center;
+}
+
+.zone8 input:hover,.form input:active,.form input:focus {
+	background: #4c268f;
+	color: #99eeb4;
+}
+
+
+.maphoto{
+	text-align: center;
+}
+
+span {
+	position: relative;
+	font-family: "Avenir Next", sans-serif;
+	font-weight: 900;
+	font-size: 64px;
+	text-transform: uppercase;
+	font-style: italic;
+	letter-spacing: 0.05em;
+	display: inline-block;
+}
+
+
+h1{
+	position: relative;
+	text-transform: uppercase;
+	font-family: "Avenir Next", sans-serif;
+	color: #75CEF2;
+	text-align: center;
+}
+
+
+.register{
+	text-align: center;
+	font-size: 20px;
+}
+
+.reponse_of_question {
+	font-family: "Avenir Next", sans-serif;
+	background: #471D83;
+	width: 50%;
+	color: #FFFFFF;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+
+
+
+
+/*Tableau*/
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+	height: 100px;
+	text-align: center;
+	font-family: "Avenir Next", sans-serif;
+	background: #471D83;
+	color: white;
+}
+
+td, th {
+	border: 2px solid;
+	width: 10%;
+}
+

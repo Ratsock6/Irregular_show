@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" />
+	<title>Verbe Irrégulier IN GAME</title>
+</head>
+<body>
+
+	<!-- Bandeau du haut -->
+
+	<div class="maphoto"><img src="maphoto.png" alt="ma photo" width="115" height="115" /></div>
+
+	<div class="zone1">
+		<span>Irregular Show</span>
+		<span>Mini Projet JavaScript</span>
+
+	</div> 
+
+	<div class="zone2">
+		Développeur: Antoine Allou
+		<br> Classe: TSTI2D1 <br>
+	</div> 
+
+	<div class="zone3"></div> 
+	<div class="zone4"></div>
+	<br>
+
+	<!-- Fin du bandeau et passage à la zone principal. -->
+
+
+	<!-- Récupération du nombre de la question avec ID avec JavaScript-->
+
+	<h1>» Question <strong id="num_question"></strong> «</h1>
+
+
+	<!-- Création du tableau avec ID pour JavaScript-->
+
+	<table>
+		<tr>
+			<th>Infinitif</th>
+			<th>Prétérit</th>
+			<th>Participe</th>
+			<th>Traduction</th>
+		</tr>
+
+		<tr>
+			<th id="infinitif"></th>
+			<th id="preterit"></th>
+			<th id="participe"></th>
+			<th id="traduction"></th>
+		</tr>
+	</table>
+
+	<br>
+
+
+	<!-- Formulaire de réponse et d'envois de réponse et ensuite traité par JavaScript -->
+
+
+	<div class="zone8">
+
+		<form name="form_reponse" method="post" onsubmit="return questionValidation()" action="MiniProjet_End_Allou_Antoine.html">
+			<p>
+				<input class="reponse_of_question" type="text" placeholder="Reponse"/ id="form_reponse">
+				<br>
+				<br>
+				<input type="submit" name="next" value="Suivant">
+			</p>
+		</form>
+	</div>
+
+	<!-- Execution de script.js -->
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
